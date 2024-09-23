@@ -7,6 +7,10 @@ import org.abhinay.parking_lot.vehicle.Car;
 import org.abhinay.parking_lot.vehicle.Motorcycle;
 import org.abhinay.parking_lot.vehicle.Truck;
 import org.abhinay.parking_lot.vehicle.VehicleType;
+import org.abhinay.vending_machine.Coin;
+import org.abhinay.vending_machine.Note;
+import org.abhinay.vending_machine.Product;
+import org.abhinay.vending_machine.VendingMachine;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -40,9 +44,31 @@ public class Main {
         parkingLot.unParkVehicle(car2);
         parkingLot.displayAvailability();
     }
+    public void runVendingMachine() {
+        VendingMachine vendingMachine = VendingMachine.getInstance();
+        Product kurkure = new Product("kurkure", 5);
+        Product milk = new Product("milk", 50);
+        vendingMachine.inventory.addProduct(kurkure, 10);
+        vendingMachine.inventory.addProduct(milk, 5);
+        vendingMachine.selectProduct(milk);
+//        vendingMachine.selectProduct(kurkure);
+//        vendingMachine.addCoin(Coin.DIME);
+//        vendingMachine.addNote(Note.TWENTY);
+//        vendingMachine.addNote(Note.TWENTY);
+//        vendingMachine.addNote(Note.TWENTY);
+        vendingMachine.makePaymentNote(Note.TWENTY);
+        vendingMachine.makePaymentNote(Note.TWENTY);
+//        vendingMachine.makePaymentNote(Note.TWENTY);
+        vendingMachine.dispenseProduct();;
+        vendingMachine.returnChange();
+
+    }
+
+
     public static void main(String[] args) {
         System.out.println("hi there! This is the entry point for all the questions");
         Main entryPoint = new Main();
-        entryPoint.runParkingLotSystem();
+//        entryPoint.runParkingLotSystem();
+        entryPoint.runVendingMachine();
     }
 }
