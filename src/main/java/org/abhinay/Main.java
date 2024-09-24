@@ -7,6 +7,8 @@ import org.abhinay.parking_lot.vehicle.Car;
 import org.abhinay.parking_lot.vehicle.Motorcycle;
 import org.abhinay.parking_lot.vehicle.Truck;
 import org.abhinay.parking_lot.vehicle.VehicleType;
+import org.abhinay.stack_overflow.StackOverflow;
+import org.abhinay.stack_overflow.User;
 import org.abhinay.vending_machine.Coin;
 import org.abhinay.vending_machine.Note;
 import org.abhinay.vending_machine.Product;
@@ -63,12 +65,20 @@ public class Main {
         vendingMachine.returnChange();
 
     }
+    public void runStackOverflow() {
+        StackOverflow stackOverflow = StackOverflow.getInstance();
+        User user1 = new User();
+        stackOverflow.addUser(user1);
+        stackOverflow.addUser(user1);
+    }
 
 
     public static void main(String[] args) {
         System.out.println("hi there! This is the entry point for all the questions");
         Main entryPoint = new Main();
 //        entryPoint.runParkingLotSystem();
-        entryPoint.runVendingMachine();
+//        entryPoint.runVendingMachine();
+        entryPoint.runStackOverflow();
     }
+
 }

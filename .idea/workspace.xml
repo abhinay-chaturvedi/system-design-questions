@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="Done with Parking system design question">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/DispenseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/IdleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/ReadyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/ReturnChangeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/VendingMachineState.java" afterDir="false" />
+    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="Done with vending machine!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/StackOverflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Vote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" afterDir="false" />
     </list>
@@ -49,6 +46,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/abhinay/parking_lot/Level.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/StackOverflow.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -97,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726669722740</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Done with vending machine!">
+      <option name="closed" value="true" />
+      <created>1727113666212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727113666212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,14 +120,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Parking lot coding complete" />
     <MESSAGE value="Done with Parking system design question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with Parking system design question" />
+    <MESSAGE value="Done with vending machine!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with vending machine!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/abhinay/Main.java</url>
-          <line>72</line>
+          <line>81</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
