@@ -3,10 +3,10 @@ package org.abhinay.stack_overflow;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Answer {
+public class Answer implements Votable, Commentable {
 
     private final int id;
-    private final String title;
+//    private final String title;
     private final String content;
     private final User author;
     private boolean isAccepted;
@@ -16,9 +16,9 @@ public class Answer {
     private Date creationDate;
 
 
-    public Answer(String title, String content, User author, Question question) {
+    public Answer(String content, User author, Question question) {
         this.id = generateId();
-        this.title = title;
+//        this.title = title;
         this.content = content;
         this.author = author;
         this.associatedQuestion = question;
@@ -32,6 +32,8 @@ public class Answer {
         return (int) (System.currentTimeMillis() % Integer.MAX_VALUE);
     }
 
+
+    @Override
     public void addVote(User user, int val) {
         if(val !=1 && val != -1) {
             System.out.println("Value canbe ether 1 or -1");
@@ -42,12 +44,44 @@ public class Answer {
         this.author.updateReputation(val * 10);
     }
 
+    @Override
     public ArrayList<Comment> getComments() {
         return new ArrayList<>(comments);
     }
+    @Override
     public int getVoteCount() {
         return this.votes.stream().mapToInt(Vote::getValue).sum();
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public User getAuthor() {
+        return author;
+    }
+
+    public boolean isAccepted() {
+        return isAccepted;
+    }
+
+    public Question getAssociatedQuestion() {
+        return associatedQuestion;
+    }
+
+    public ArrayList<Vote> getVotes() {
+        return votes;
+    }
+
+    public Date getCreationDate() {
+        return creationDate;
+    }
+
+    @Override
     public void addComment(Comment comment) {
 
         comments.forEach((com) -> {
