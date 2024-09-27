@@ -1,5 +1,9 @@
 package org.abhinay;
 
+import org.abhinay.logging_framework.Config;
+import org.abhinay.logging_framework.FileAppender;
+import org.abhinay.logging_framework.LogLevel;
+import org.abhinay.logging_framework.Logger;
 import org.abhinay.parking_lot.Level;
 import org.abhinay.parking_lot.ParkingLot;
 import org.abhinay.parking_lot.ParkingSpot;
@@ -137,6 +141,13 @@ public class Main {
             System.out.println(q.getTitle());
         }
     }
+    public void runLogger() {
+        Logger logger = Logger.getInstance();
+        logger.info("hi there!");
+        Config config = new Config(LogLevel.DEBUG, new FileAppender("app.txt"));
+        logger.setConfig(config);
+        logger.debug("hi debug");
+    }
 
 
     public static void main(String[] args) {
@@ -144,7 +155,9 @@ public class Main {
         Main entryPoint = new Main();
 //        entryPoint.runParkingLotSystem();
 //        entryPoint.runVendingMachine();
-        entryPoint.runStackOverflow();
+//        entryPoint.runStackOverflow();
+        entryPoint.runLogger();
     }
+
 
 }

@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="Started with - design stack overflow.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Commentable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Votable.java" afterDir="false" />
+    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="Done with - design stack overflow.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/logging_framework/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/logging_framework/ConsoleAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/logging_framework/DatabaseAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/logging_framework/FileAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/logging_framework/LogAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/logging_framework/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/logging_framework/LogMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/logging_framework/Logger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/StackOverflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/StackOverflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727204095465</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Done with - design stack overflow.">
+      <option name="closed" value="true" />
+      <created>1727459454574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727459454574</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,16 +139,21 @@
     <MESSAGE value="Done with Parking system design question" />
     <MESSAGE value="Done with vending machine!" />
     <MESSAGE value="Started with - design stack overflow." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started with - design stack overflow." />
+    <MESSAGE value="Done with - design stack overflow." />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with - design stack overflow." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/abhinay/Main.java</url>
-          <line>147</line>
+          <line>159</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
