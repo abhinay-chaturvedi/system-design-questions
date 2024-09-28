@@ -1,5 +1,8 @@
 package org.abhinay;
 
+import org.abhinay.coffee_vending_machine.Coffee;
+import org.abhinay.coffee_vending_machine.CoffeeMachine;
+import org.abhinay.coffee_vending_machine.Payment;
 import org.abhinay.logging_framework.Config;
 import org.abhinay.logging_framework.FileAppender;
 import org.abhinay.logging_framework.LogLevel;
@@ -148,6 +151,13 @@ public class Main {
         logger.setConfig(config);
         logger.debug("hi debug");
     }
+    public void runCoffeeMachine() {
+        CoffeeMachine coffeeMachine = CoffeeMachine.getInstance();
+        coffeeMachine.displayMenu();
+        Coffee coffee = coffeeMachine.selectCoffee("Latte");
+        Payment payment = coffeeMachine.makePayment(coffee, 5.0);
+        coffeeMachine.dispenseCoffee(coffee, payment);
+    }
 
 
     public static void main(String[] args) {
@@ -156,7 +166,9 @@ public class Main {
 //        entryPoint.runParkingLotSystem();
 //        entryPoint.runVendingMachine();
 //        entryPoint.runStackOverflow();
-        entryPoint.runLogger();
+//        entryPoint.runLogger();
+        entryPoint.runCoffeeMachine();
+
     }
 
 
