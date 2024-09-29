@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="Done with - LoggingFramework.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/coffee_vending_machine/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/coffee_vending_machine/CoffeeMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/coffee_vending_machine/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/coffee_vending_machine/Payment.java" afterDir="false" />
+    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="Done with - Coffee Vending machine.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/traffic_system/Road.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/traffic_system/Signal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/traffic_system/TrafficController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/traffic_system/TrafficLight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" afterDir="false" />
     </list>
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -124,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727465857242</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Done with - Coffee Vending machine.">
+      <option name="closed" value="true" />
+      <created>1727548862819</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727548862819</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,14 +153,15 @@
     <MESSAGE value="Started with - design stack overflow." />
     <MESSAGE value="Done with - design stack overflow." />
     <MESSAGE value="Done with - LoggingFramework." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with - LoggingFramework." />
+    <MESSAGE value="Done with - Coffee Vending machine." />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with - Coffee Vending machine." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/abhinay/Main.java</url>
-          <line>171</line>
+          <line>198</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
