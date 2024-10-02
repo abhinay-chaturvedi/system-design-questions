@@ -1,6 +1,7 @@
 package org.abhinay.task_management_system;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -35,6 +36,35 @@ public class TaskManager {
         }
         this.tasks.remove(task.getId());
         return true;
+    }
+    public List<Task> filterTask(TaskStatus status, Date startDate, Date endDate, Priority priority) {
+        return this.tasks.values().stream().filter((item) -> {
+            return (item.getTaskStatus() == status && item.getPriority() == priority &&
+                    item.getDuedate().compareTo(startDate) >= 0 &&
+                    item.getDuedate().compareTo(endDate) <= 0);
+        }).toList();
+    }
+    public void markTaskAsCompleted(Task task) {
+//        task.setTaskStatus(TaskStatus.COMPLETED);
+        synchronized (task) {
+            task.setTaskStatus(TaskStatus.COMPLETED);
+        }
+    }
+    public List<Task> getTaskHistory(User user) {
+        return this.tasks.values().stream().filter((item) -> item.getAssignedUser().equals(user)).toList();
+    }
+    public void updateTask(Task updatedTask) {
+        Task existingTask = tasks.get(updatedTask.getId());
+        if (existingTask != null) {
+            synchronized (existingTask) {
+                existingTask.setTitle(updatedTask.getTitle());
+                existingTask.setDesc(updatedTask.getDesc());
+                existingTask.setDuedate(updatedTask.getDuedate());
+                existingTask.setPriority(updatedTask.getPriority());
+                existingTask.setTaskStatus(updatedTask.getTaskStatus());
+                existingTask.setAssignedUser(updatedTask.getAssignedUser());
+            }
+        }
     }
     public List<Task> searchTask(String keyword) {
         return this.tasks.values().stream().filter((item) -> {
