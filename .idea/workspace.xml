@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="Started wth task management system.">
+    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="Done wth task management system.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/task_management_system/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/task_management_system/TaskManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/task_management_system/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/task_management_system/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727723210929</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Done wth task management system.">
+      <option name="closed" value="true" />
+      <created>1727896957702</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727896957702</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +175,8 @@
     <MESSAGE value="Done with - Coffee Vending machine." />
     <MESSAGE value="Done with - Traffic Control System." />
     <MESSAGE value="Started wth task management system." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started wth task management system." />
+    <MESSAGE value="Done wth task management system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Done wth task management system." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
