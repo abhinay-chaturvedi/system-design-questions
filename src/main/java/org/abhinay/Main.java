@@ -15,6 +15,7 @@ import org.abhinay.parking_lot.vehicle.Motorcycle;
 import org.abhinay.parking_lot.vehicle.Truck;
 import org.abhinay.parking_lot.vehicle.VehicleType;
 //import org.abhinay.stack_overflow.*;
+import org.abhinay.pub_sub.PubSub;
 import org.abhinay.task_management_system.*;
 import org.abhinay.traffic_system.Road;
 import org.abhinay.traffic_system.TrafficController;
@@ -227,6 +228,10 @@ public class Main {
         }
 
     }
+    public void runPubSub() {
+        PubSub pubSub = PubSub.getInstance();
+        pubSub.startPubSubSystem();
+    }
 
 
 
@@ -239,7 +244,9 @@ public class Main {
 //        entryPoint.runLogger();
 //        entryPoint.runCoffeeMachine();
 //        entryPoint.runTrafficSystem();
-        entryPoint.runTaskManagementSystem();
+//        entryPoint.runTaskManagementSystem();
+        entryPoint.runPubSub();
+
     }
 
 
