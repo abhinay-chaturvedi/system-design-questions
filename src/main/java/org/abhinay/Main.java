@@ -17,6 +17,7 @@ import org.abhinay.parking_lot.vehicle.VehicleType;
 //import org.abhinay.stack_overflow.*;
 import org.abhinay.pub_sub.PubSub;
 import org.abhinay.task_management_system.*;
+import org.abhinay.tic_tac_toe_game.TicTacToeGame;
 import org.abhinay.traffic_system.Road;
 import org.abhinay.traffic_system.TrafficController;
 import org.abhinay.traffic_system.TrafficLight;
@@ -32,7 +33,7 @@ import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class aMain {
     public void runParkingLotSystem(){
         System.out.println("Running parking lot system!");
         ParkingLot parkingLot  = ParkingLot.getInstance();
@@ -232,6 +233,11 @@ public class Main {
         PubSub pubSub = PubSub.getInstance();
         pubSub.startPubSubSystem();
     }
+    public void ticToeGame() {
+        TicTacToeGame ticTacToeGame = TicTacToeGame.getInstance();
+        ticTacToeGame.assignFirstChance(1);
+        ticTacToeGame.play();
+    }
 
 
 
@@ -245,7 +251,8 @@ public class Main {
 //        entryPoint.runCoffeeMachine();
 //        entryPoint.runTrafficSystem();
 //        entryPoint.runTaskManagementSystem();
-        entryPoint.runPubSub();
+//        entryPoint.runPubSub();
+        entryPoint.ticToeGame();
 
     }
 
