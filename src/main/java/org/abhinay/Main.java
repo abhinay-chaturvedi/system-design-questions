@@ -1,5 +1,6 @@
 package org.abhinay;
 
+import org.abhinay.car_rental_system.CarRentalSystem;
 import org.abhinay.coffee_vending_machine.Coffee;
 import org.abhinay.coffee_vending_machine.CoffeeMachine;
 import org.abhinay.coffee_vending_machine.Payment;
@@ -33,7 +34,7 @@ import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class aMain {
+public class Main {
     public void runParkingLotSystem(){
         System.out.println("Running parking lot system!");
         ParkingLot parkingLot  = ParkingLot.getInstance();
@@ -238,7 +239,10 @@ public class aMain {
         ticTacToeGame.assignFirstChance(1);
         ticTacToeGame.play();
     }
-
+    public void runCarRentalSystem() {
+        CarRentalSystem carRentalSystem = CarRentalSystem.getInstance();
+        carRentalSystem.runCarRentalSystem();
+    }
 
 
     public static void main(String[] args) {
@@ -252,7 +256,8 @@ public class aMain {
 //        entryPoint.runTrafficSystem();
 //        entryPoint.runTaskManagementSystem();
 //        entryPoint.runPubSub();
-        entryPoint.ticToeGame();
+//        entryPoint.ticToeGame();
+        entryPoint.runCarRentalSystem();
 
     }
 
