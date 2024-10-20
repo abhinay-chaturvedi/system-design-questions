@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="continuing with car rental system.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/car_rental_system/CarRentalSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/car_rental_system/CarRentalSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/car_rental_system/CreditCardPaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/car_rental_system/CreditCardPaymentProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/car_rental_system/PaypalPaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/car_rental_system/PaypalPaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/atm_machine/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/atm_machine/AtmMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/atm_machine/Card.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
