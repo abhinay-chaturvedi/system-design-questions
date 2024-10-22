@@ -1,5 +1,6 @@
 package org.abhinay;
 
+import org.abhinay.atm_machine.AtmMachine;
 import org.abhinay.car_rental_system.CarRentalSystem;
 import org.abhinay.coffee_vending_machine.Coffee;
 import org.abhinay.coffee_vending_machine.CoffeeMachine;
@@ -244,6 +245,10 @@ public class Main {
         carRentalSystem.runCarRentalSystem();
     }
 
+    public void runAtmMachineSystem() {
+        AtmMachine atmMachine = AtmMachine.getInstance();
+        atmMachine.runSystem();
+    }
 
     public static void main(String[] args) {
         System.out.println("hi there! This is the entry point for all the questions");
@@ -257,7 +262,8 @@ public class Main {
 //        entryPoint.runTaskManagementSystem();
 //        entryPoint.runPubSub();
 //        entryPoint.ticToeGame();
-        entryPoint.runCarRentalSystem();
+//        entryPoint.runCarRentalSystem();
+        entryPoint.runAtmMachineSystem();
 
     }
 

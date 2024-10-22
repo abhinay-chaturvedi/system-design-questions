@@ -4,9 +4,9 @@ public class Account {
     private final String accountNumber;
     private double balance;
 
-    public Account(String accountNumber) {
+    public Account(String accountNumber, double initialBalance) {
         this.accountNumber = accountNumber;
-        this.balance = 0;
+        this.balance = initialBalance;
     }
 
     public String getAccountNumber() {
