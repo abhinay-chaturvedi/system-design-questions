@@ -5,6 +5,7 @@ import org.abhinay.car_rental_system.CarRentalSystem;
 import org.abhinay.coffee_vending_machine.Coffee;
 import org.abhinay.coffee_vending_machine.CoffeeMachine;
 import org.abhinay.coffee_vending_machine.Payment;
+import org.abhinay.hotel_management_system.HotelManagementDemo;
 import org.abhinay.logging_framework.Config;
 import org.abhinay.logging_framework.FileAppender;
 import org.abhinay.logging_framework.LogLevel;
@@ -249,6 +250,10 @@ public class Main {
         AtmMachine atmMachine = AtmMachine.getInstance();
         atmMachine.runSystem();
     }
+    public void runHotelManagementSystem() {
+        HotelManagementDemo app = new HotelManagementDemo();
+        app.runSystem();
+    }
 
     public static void main(String[] args) {
         System.out.println("hi there! This is the entry point for all the questions");
@@ -263,7 +268,8 @@ public class Main {
 //        entryPoint.runPubSub();
 //        entryPoint.ticToeGame();
 //        entryPoint.runCarRentalSystem();
-        entryPoint.runAtmMachineSystem();
+//        entryPoint.runAtmMachineSystem();
+        entryPoint.runHotelManagementSystem();
 
     }
 

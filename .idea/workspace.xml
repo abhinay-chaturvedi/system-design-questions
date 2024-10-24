@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="Done with atm system.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/HotelManagementSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/ReservationStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/RoomStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/RoomType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/payment/CashPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/payment/CreditCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/payment/Payment.java" afterDir="false" />
+    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="started and completed 80% of Hotel management system.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/HotelManagementDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/HotelManagementDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729608843947</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="started and completed 80% of Hotel management system.">
+      <option name="closed" value="true" />
+      <created>1729700969042</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729700969042</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,14 +258,15 @@
     <MESSAGE value="continuing with car rental system." />
     <MESSAGE value="starting with atm system." />
     <MESSAGE value="Done with atm system." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with atm system." />
+    <MESSAGE value="started and completed 80% of Hotel management system." />
+    <option name="LAST_COMMIT_MESSAGE" value="started and completed 80% of Hotel management system." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/abhinay/Main.java</url>
-          <line>267</line>
+          <line>273</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
