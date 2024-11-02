@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="completed Hotel management system." />
+    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="continue with link-din system.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/JobPosting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/NotificationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/LinkdinSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/LinkdinSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -245,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729782274371</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Started with link-din system.">
+      <option name="closed" value="true" />
+      <created>1730308379303</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1730308379303</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +297,9 @@
     <MESSAGE value="Done with atm system." />
     <MESSAGE value="started and completed 80% of Hotel management system." />
     <MESSAGE value="completed Hotel management system." />
-    <option name="LAST_COMMIT_MESSAGE" value="completed Hotel management system." />
+    <MESSAGE value="Started with link-din system." />
+    <MESSAGE value="continue with link-din system." />
+    <option name="LAST_COMMIT_MESSAGE" value="continue with link-din system." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
