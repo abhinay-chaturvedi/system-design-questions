@@ -78,7 +78,7 @@ public class CarRentalSystem {
     public String generateReservationId() {
         return  "RES" + UUID.randomUUID().toString().substring(0, 8).toUpperCase();
     }
-    public void runCarRentalSystem() {
+    public void run() {
 //        CarRentalSystem rentalSystem = CarRentalSystem.getInstance();
         this.addCar(new Car("Toyota", "Camry", 2022, "ABC123", 50.0));
         this.addCar(new Car("Honda", "Civic", 2021, "XYZ789", 45.0));

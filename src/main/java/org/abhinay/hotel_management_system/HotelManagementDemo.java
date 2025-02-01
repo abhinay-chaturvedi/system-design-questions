@@ -6,7 +6,7 @@ import org.abhinay.hotel_management_system.payment.Payment;
 import java.time.LocalDate;
 
 public class HotelManagementDemo {
-    public void runSystem() {
+    public void run() {
         HotelManagementSystem hotelManagementSystem = HotelManagementSystem.getInstance();
         Guest guest1 = new Guest("G001", "John Doe", "john@example.com", "1234567890");
         Guest guest2 = new Guest("G002", "Jane Smith", "jane@example.com", "9876543210");

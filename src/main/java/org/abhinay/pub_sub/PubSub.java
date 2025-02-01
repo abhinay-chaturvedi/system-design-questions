@@ -10,7 +10,7 @@ public class PubSub {
         }
         return instance;
     }
-    public void startPubSubSystem() {
+    public void run() {
         Topic topic1 = new Topic(1, "topic1");
         Topic topic2 = new Topic(2, "topic2");
 

@@ -4,15 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="continue with link-din system.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/JobPosting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/NotificationType.java" afterDir="false" />
+    <list default="true" id="9104406a-38c3-408c-ab36-0db2e844505a" name="Changes" comment="added necessary method in link-din system.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/coffee_vending_machine/CoffeeMachineDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Education.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Experience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/LinkedInService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/logging_framework/LoggerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/parking_lot/ParkingLotDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/stack_overflow/StackOverflowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/task_management_system/TaskManagementDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/tic_tac_toe_game/TicTacToeGameDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/traffic_system/TrafficSystemDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/vending_machine/VendingMachineDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/LinkdinSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/LinkdinSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/atm_machine/AtmMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/atm_machine/AtmMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/car_rental_system/CarRentalSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/car_rental_system/CarRentalSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/HotelManagementDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/hotel_management_system/HotelManagementDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/JobPosting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/JobPosting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/LinkdinSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/LinkdinSystemDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/LinkdinSystemDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/Profile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/linkdin/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abhinay/pub_sub/PubSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abhinay/pub_sub/PubSub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730308379303</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="added necessary method in link-din system.">
+      <option name="closed" value="true" />
+      <created>1730558216821</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1730558216821</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,14 +325,15 @@
     <MESSAGE value="completed Hotel management system." />
     <MESSAGE value="Started with link-din system." />
     <MESSAGE value="continue with link-din system." />
-    <option name="LAST_COMMIT_MESSAGE" value="continue with link-din system." />
+    <MESSAGE value="added necessary method in link-din system." />
+    <option name="LAST_COMMIT_MESSAGE" value="added necessary method in link-din system." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/abhinay/Main.java</url>
-          <line>273</line>
+          <line>95</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">

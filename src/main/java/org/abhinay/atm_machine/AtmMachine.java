@@ -49,7 +49,7 @@ public class AtmMachine {
         System.out.println(String.format("%010d", transactionNumber));
         return "TXN" + timestamp + String.format("%010d", transactionNumber);
     }
-    public void runSystem() {
+    public void run() {
         bankingService.addBankAccount("1234567890", 1000.0);
         bankingService.addBankAccount("9876543210", 500.0);
 
